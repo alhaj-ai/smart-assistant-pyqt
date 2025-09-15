@@ -1,0 +1,11 @@
+PyQt6==6.7.1
+rapidfuzz==3.9.6
+psutil==6.0.0
+pyautogui==0.9.54
+
+# جديد
+scikit-learn>=1.4
+joblib>=1.3
+PyArabic>=0.6.15
+pytube>=15
+pywin32>=306; platform_system == "Windows"

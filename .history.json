@@ -1,0 +1,160 @@
+[
+  {
+    "raw": "السلام عليكم",
+    "normalized": "السلام عليكم",
+    "intent": null,
+    "target": null
+  },
+  {
+    "raw": "افتح وورد",
+    "normalized": "افتح وورد",
+    "intent": "open",
+    "target": {
+      "name": "Microsoft Word",
+      "aliases": [
+        "وورد",
+        "word"
+      ],
+      "windows": "C:/Program Files/Microsoft Office/root/Office16/WINWORD.EXE",
+      "linux": "libreoffice --writer",
+      "darwin": "/Applications/Microsoft Word.app"
+    }
+  },
+  {
+    "raw": "ابحث عن زامل",
+    "normalized": "ابحث عن زامل",
+    "intent": "search_web",
+    "target": null
+  },
+  {
+    "raw": "افتح اليوتيوب وشغل زامل",
+    "normalized": "افتح اليوتيوب وشغل زامل",
+    "intent": "open",
+    "target": {
+      "name": "YouTube",
+      "aliases": [
+        "يوتيوب",
+        "youtube"
+      ],
+      "url": "https://www.youtube.com"
+    }
+  },
+  {
+    "raw": "افتح اليوتيوب وشغل فيديو زامل",
+    "normalized": "افتح اليوتيوب وشغل فيديو زامل",
+    "intent": "open",
+    "target": {
+      "name": "YouTube",
+      "aliases": [
+        "يوتيوب",
+        "youtube"
+      ],
+      "url": "https://www.youtube.com"
+    }
+  },
+  {
+    "raw": "السلام عليكم",
+    "normalized": "السلام عليكم",
+    "intent": "greet",
+    "target": null
+  },
+  {
+    "raw": "السلام",
+    "normalized": "السلام",
+    "intent": null,
+    "target": null
+  },
+  {
+    "raw": "السلام",
+    "normalized": "السلام",
+    "intent": "greet",
+    "target": null
+  },
+  {
+    "raw": "ابحثلي عن محمد",
+    "normalized": "ابحثلي عن محمد",
+    "intent": "search_web",
+    "target": null
+  },
+  {
+    "raw": "السلام عليكم",
+    "normalized": "السلام عليكم",
+    "intent": "greet",
+    "target": "السلام عليكم"
+  },
+  {
+    "raw": "كيف حالك",
+    "normalized": "كيف حالك",
+    "intent": null,
+    "target": "كيف حالك"
+  },
+  {
+    "raw": "افتح يوتيوب",
+    "normalized": "افتح يوتيوب",
+    "intent": "open",
+    "target": {
+      "name": "YouTube",
+      "aliases": [
+        "يوتيوب",
+        "youtube"
+      ],
+      "url": "https://www.youtube.com"
+    }
+  },
+  {
+    "raw": "ط",
+    "normalized": "ط",
+    "intent": null,
+    "target": "ط"
+  },
+  {
+    "raw": "ابحث لي عن الذكاء",
+    "normalized": "ابحث لي عن الذكاء",
+    "intent": "search_web",
+    "target": "الذكاء"
+  },
+  {
+    "raw": "السلام عليكم",
+    "normalized": "السلام عليكم",
+    "intent": "smalltalk",
+    "target": null
+  },
+  {
+    "raw": "سلام",
+    "normalized": "سلام",
+    "intent": "smalltalk",
+    "target": null
+  },
+  {
+    "raw": "افتح اليوتيوب",
+    "normalized": "افتح اليوتيوب",
+    "intent": "open",
+    "target": {
+      "name": "YouTube",
+      "aliases": [
+        "يوتيوب",
+        "youtube"
+      ],
+      "url": "https://www.youtube.com"
+    }
+  },
+  {
+    "raw": "ابحث لي",
+    "normalized": "ابحث لي",
+    "intent": "search_web",
+    "target": ""
+  },
+  {
+    "raw": "افتح لي زوامل في يوتيوب",
+    "normalized": "افتح لي زوامل في يوتيوب",
+    "intent": "open",
+    "target": {
+      "name": "YouTube",
+      "aliases": [
+        "يوتيوب",
+        "youtube"
+      ],
+      "url": "https://www.youtube.com"
+    }
+  }
+]

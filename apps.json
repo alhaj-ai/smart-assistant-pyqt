@@ -1,0 +1,70 @@
+{
+  "apps": [
+    {
+      "name": "Microsoft Word",
+      "aliases": ["وورد", "ورد", "word"],
+      "windows": "C:/Program Files/Microsoft Office/root/Office16/WINWORD.EXE",
+      "linux": "libreoffice --writer",
+      "darwin": "/Applications/Microsoft Word.app"
+    },
+    {
+      "name": "Excel",
+      "aliases": ["اكسل", "excel"],
+      "windows": "C:/Program Files/Microsoft Office/root/Office16/EXCEL.EXE",
+      "linux": "libreoffice --calc",
+      "darwin": "/Applications/Microsoft Excel.app"
+    },
+    {
+      "name": "PowerPoint",
+      "aliases": ["بوربوينت", "عرض", "عرض تقديمي"],
+      "windows": "C:/Program Files/Microsoft Office/root/Office16/POWERPNT.EXE",
+      "linux": "libreoffice --impress",
+      "darwin": "/Applications/Microsoft PowerPoint.app"
+    },
+    {
+      "name": "VS Code",
+      "aliases": ["فيجوال ستوديو كود", "كود", "vscode", "code"],
+      "windows": "C:/Users/Public/AppData/Local/Programs/Microsoft VS Code/Code.exe",
+      "linux": "code",
+      "darwin": "/Applications/Visual Studio Code.app/Contents/MacOS/Electron"
+    },
+    {
+      "name": "Google Chrome",
+      "aliases": ["كروم", "قوقل كروم", "متصفح"],
+      "windows": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+      "linux": "google-chrome",
+      "darwin": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+    },
+    {
+      "name": "YouTube",
+      "aliases": ["يوتيوب", "youtube"],
+      "url": "https://www.youtube.com"
+    },
+    {
+      "name": "Google",
+      "aliases": ["قوقل", "غوغل", "بحث"],
+      "url": "https://www.google.com"
+    },
+    {
+      "name": "File Explorer",
+      "aliases": ["مستكشف", "explorer", "الملفات"],
+      "windows": "explorer.exe",
+      "linux": "nautilus",
+      "darwin": "Finder"
+    },
+    {
+      "name": "Calculator",
+      "aliases": ["حاسبة", "calculator", "calc"],
+      "windows": "calc.exe",
+      "linux": "gnome-calculator",
+      "darwin": "/System/Applications/Calculator.app"
+    },
+    {
+      "name": "Terminal",
+      "aliases": ["ترمنال", "terminal", "cmd", "شيل"],
+      "windows": "cmd.exe",
+      "linux": "gnome-terminal",
+      "darwin": "/Applications/Utilities/Terminal.app"
+    }
+  ]
+}
